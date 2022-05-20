@@ -9,7 +9,7 @@
  :root{
      --primary-text-color:#757575;
      --title-text-color:#212121;
-     --accent-color:#2196F3;;
+     --accent-color:#2196F3;
      --color-color: #ffffff;
      --background-color:#2F303A;
  }
@@ -18,17 +18,18 @@
     text-decoration: none;
  } 
  
- page {
-     
+ body {   
  background-color:var(--color-color);
- color: var(--primary-text-color)
-font-family: Roboto, Raleway, sans-serif;
-letter-spacing: 0.03em;
-}
+ color: var(--primary-text-color);
+ font-family : Roboto, Raleway, sans-serif;
+ letter-spacing : 0.03em;
+ }
+
 h1,
 h2,
 h3{ 
     font-family: Roboto;
+    color: #212121;
 }
  
  ul{
@@ -91,17 +92,28 @@ h3{
      font-size: 44px;
      line-height: 1.36;
      text-align: center;
-            
-   
  }
- .button{
+ .section-title{
      color: var(--color-color);
-     background-color:var(--accent-color) ;
-     font-family: 'Roboto';
-     font-weight: 700;
-     font-size: 16px;
-     line-height: 1.9;
  }
+ .button-primary{  
+            display: inline-block;
+            cursor: pointer;
+            color: var(--color-color);
+            background-color: var(--accent-color);
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.9;
+        }
+ .button-primary :hover,
+ :focus{color: var(--title-text-color);
+    background-color: var(--color-color);
+
+ }
+     
+     
+ 
 
  
  /*почему вибирают нас*/
@@ -148,7 +160,7 @@ h3{
         text-align: center;
 }
 .team{
-    background-color: ;
+    background-color:#F5F4FA ;
 }
 /*как найти нас (footer)*/
 
@@ -175,11 +187,20 @@ h3{
     
         letter-spacing: 0.03em;
 }
-.address-link{
-    color: var(--color-color);
-    opacity: 0.6;
+.map :hover,
+:focus{
+    color:var(--accent-color);
 
 }
+
+.address-link{
+    color: var(--color-color);
+    opacity: 0.6;   
+}
+.address-link :hover,
+:focus {
+        color: var(--accent-color)
+    }
  /*СТРАНИЦА ПОРТФОЛИО*/
  .visually-hidden {
      position: absolute;
@@ -195,23 +216,26 @@ h3{
  }
 
 
-.project-project/*btn*/{ 
+.button-item{ 
+    display: inline-block;
+    cursor: pointer;
     color: var(--title-text-color);
     background-color: var(--color-color);
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-
+   
+    }
     
-}
- .project.project :hover,
- :focus {
-     color: var(--color-color) ;
-     background-color:var(--accent-color);
-    display: inline-block;
+
+.button-item:hover,
+:focus{
+    color: var(--color-color);
+    background-color: var(--accent-color);
+} 
+ 
      
- }
 /*наши продукты*/ 
 
 
