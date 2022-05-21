@@ -38,7 +38,7 @@ h3{
 
 .logo-web{
      color: var(--accent-color);
-    font-family: 'Raleway';
+        font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
@@ -77,8 +77,8 @@ h3{
         
 
  }
- .auth-link :hover,
- .auth-link :focus {
+ .auth-link:hover,
+ .auth-link:focus {
      color: var(--accent-color)
  }
 
@@ -106,7 +106,8 @@ h3{
             font-size: 16px;
             line-height: 1.9;
         }
- .button-primary:hover,:focus{color: var(--title-text-color);
+ .button-primary:hover,
+ .button-primary:focus{color: var(--title-text-color);
     background-color: var(--color-color);
 
  }
@@ -187,7 +188,7 @@ h3{
         letter-spacing: 0.03em;
 }
 .map:hover,
-:focus{
+.map:focus{
     color:var(--accent-color);
 
 }
@@ -196,8 +197,8 @@ h3{
     color: var(--color-color);
     opacity: 0.6;   
 }
-.address-link :hover,
-:focus {
+.address-link:hover,
+.address-link:focus {
         color: var(--accent-color)
     }
  /*СТРАНИЦА ПОРТФОЛИО*/
@@ -229,7 +230,7 @@ h3{
     
 
 .button-item:hover,
-:focus{
+.button-item:focus{
     color: var(--color-color);
     background-color: var(--accent-color);
 } 
